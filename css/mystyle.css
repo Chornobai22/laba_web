@@ -69,6 +69,18 @@ body {
     color: grey;
 }
 
-#abc {
+#abc1 {
+    color: white !important;
+}
+
+#abc2 {
+    color: white !important;
+}
+
+#abc3 {
+    color: white !important;
+}
+
+#abc4 {
     color: white !important;
 }
