@@ -1,10 +1,9 @@
-<!DOCTYPE html> 
+﻿<!DOCTYPE html> 
 
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Rating of students</title>
-
-
+<script src="change.js"></script>
 <link rel="stylesheet" type="text/css" href="css/mystyle.css">
 <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 <link rel="stylesheet" href="/path/to/font-awesome.min.css">
@@ -34,33 +33,25 @@
                   <li class="nav-item active">
           <a class="nav-link sup" id="abc" href="account.html">Мій акаунт<span class="sr-only">(current)</span></a>
       </li>
-                  <li class="nav-item active">
-          <a class="nav-link sup" id="abc" href="">Вихід<span class="sr-only">(current)</span></a>
-      </li>
     </ul>
     </div>
  </div>
-
-  </div>
 </nav>
 </header><br><br><br><br>
 
 
-<form class="inputbox">
-<Input type="text" placeholder="Username" />
+<form class="inputbox" id = 'change'>
+<Input type="text" placeholder="Name" name="Name" requret/><br>
+<Input type="text" placeholder="Surname" name="Surname" requret/><br>
+<Input type="text" placeholder="Password"  name="Password" requret/><br>
+<Input type="text" placeholder="Accessusers"  name="Accessusers" requret/>
 </form><br>
-<form class="inputbox">
-<Input type="text" placeholder="E-mail" />
-</form><br>
-<form class="inputbox">
-<Input type="text" placeholder="Password" />
-</form><br>
- <form class="inputbox">
-<Input type="text"  placeholder="Phone number" />
-</form><br>
-<form class="inputbox">
-<Input type="submit" value="Змінити дані" />
- </form>
+<div class="inputbox">
+ <button onclick="change('change')">Змінити дані</button>
+</div><br>
+<div class="inputbox">
+<a class ="logout" href="index.html">Вийти</a>
+</div>
 
 </body>
 </html>

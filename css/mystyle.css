@@ -47,12 +47,36 @@ body {
   border: 2px solid;
   border-radius: 1px;
   background-color: #343f35;
+  display: block;
   margin-left: auto;
   margin-right: auto;
-  display: flex;
   align-items: center;
 }
 
+.logout {
+  text-decoration: none;
+  display: inline-block;
+  width: 10%;
+  height: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 30px;
+  border-radius: 45px;
+  font-size: 14px;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 3px;
+  font-weight: 600;
+  color: #524f4e;
+  background: white;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, .1);
+  transition: .2s;
+}
+.logout:hover {
+  background: #353535;
+  color: white;
+}
 
 [type="text"] {
     display: flex;

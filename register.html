@@ -1,10 +1,10 @@
-﻿<!DOCTYPE html> 
+<!DOCTYPE html> 
 
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Rating of students</title>
 
-
+  <script src="register.js"></script>
   <link rel="stylesheet" type="text/css" href="css/mystyle.css">
   <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="/path/to/font-awesome.min.css">
@@ -25,21 +25,6 @@
             <li class="nav-item active">
               <a class="nav-link abc" class="menu" id="sup" href="index.html">Головна <span class="sr-only">(current)</span></a>
             </li>
-              <li class="nav-item active">
-              <a class="nav-link sup" id="abc" href="search.html">Пошук рейтингів<span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link sup" id="abc" href="rating.html">Рейтинг<span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link sup" id="abc" href="account.html">Мій акаунт<span class="sr-only">(current)</span></a>
-            </li>
-             <li class="nav-item active">
-              <a class="nav-link sup" id="abc" href="register.html">Реєстрація<span class="sr-only">(current)</span></a>
-            </li>
-              <li class="nav-item active">
-              <a class="nav-link sup" id="abc" href="login.html">Вхід<span class="sr-only">(current)</span></a>
-            </li>
           </ul>
         </div>
       </div>
@@ -48,7 +33,17 @@
 </header>
 <br>
 <br><br><br><br>
-
-
+<form class="inputbox" id = 'register'>
+<Input type="text" placeholder="Id" name="Id" requret/><br>
+<Input type="text" placeholder="Name" name="Name" requret/><br>
+<Input type="text" placeholder="Surname" name="Surname" requret/><br>
+<Input type="text" placeholder="Username"  name="Username" requret/><br>
+<Input type="text" placeholder="Password"  name="Password" requret/><br>
+<Input type="text" placeholder="Accessusers"  name="Accessusers" requret/>
+</form>
+<br>
+<div class="inputbox">
+ <button onclick="register('register')">Register</button>
+</div>
 </body>
 </html>
